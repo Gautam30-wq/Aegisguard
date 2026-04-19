@@ -89,6 +89,11 @@ AegisGuard implements a defense-in-depth approach with multiple security layers:
 3. **Monitor Security**: Watch the risk gauge update in real-time
 4. **View Logs**: Check threat logs and system health metrics
 
+# Pipeline
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/02e56d5f-f366-4573-832b-558d76640da1" />
+
+
 ### API Integration
 
 **Endpoint**: `POST /api/chat`
