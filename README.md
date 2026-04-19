@@ -57,29 +57,39 @@ AegisGuard implements a defense-in-depth approach with multiple security layers:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd hack
+   cd Bytelet
    ```
 
 2. **Install backend dependencies**
    ```bash
-   cd llm_firewall/backend
+   cd backend
    npm install
    ```
 
-3. **Configure environment**
-   Create a `.env` file in the `backend` directory:
-   ```
+3. **Configure environment variables**
+   Create a `.env` file inside the `backend` directory:
+   ```env
    GEMINI_API_KEY=your_actual_api_key_here
    ```
 
-4. **Start the server**
+4. **Start the backend server**
    ```bash
    npm start
    ```
-   Server will run on `http://localhost:3000`
+   The backend should run on `http://localhost:3000`.
 
-5. **Open the interface**
-   Open `llm_firewall/frontend/index.html` in your browser
+5. **Open the frontend**
+   - If the frontend is static, open `frontend/index.html` directly in your browser.
+   - If you prefer a local server, run from the `frontend` directory:
+     ```bash
+     npx serve .
+     ```
+
+6. **Use the app**
+   - Type a message in the chat input
+   - Press the execute/send button
+   - Watch the firewall risk gauge, logs, and response behavior
+
 
 ## 🎯 Usage
 
